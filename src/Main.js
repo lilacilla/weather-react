@@ -10,7 +10,8 @@ export default function Main() {
               London
             </h1>
             <p className="weather-app-details">
-              <span id="time">12pm</span>,<span id="description">Sunny</span>
+              <span id="time">Monday 12:00</span>,
+              <span id="description">Sunny</span>
               <br />
               Humidity: <strong id="humidity">64%</strong>, Wind:
               <strong id="wind-speed">12mph</strong>
@@ -18,7 +19,9 @@ export default function Main() {
           </div>
           <div className="weather-app-temperature-container">
             <div id="icon"></div>
-            <div className="weather-app-temperature" id="temperature"></div>
+            <div className="weather-app-temperature" id="temperature">
+              17
+            </div>
             <div className="weather-app-unit">°C</div>
           </div>
         </div>

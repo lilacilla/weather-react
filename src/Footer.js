@@ -9,12 +9,16 @@ export default function Footer() {
           Priscilla
         </a>
         , is open sourced on
-        <a href="https://github.com/lilacilla" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/lilacilla/weather-react"
+          target="_blank"
+          rel="noreferrer"
+        >
           Github
         </a>
         & hosted on
         <a
-          href="https://amazing-kheer-537128.netlify.app/"
+          href="https://glowing-cobbler-b7cd72.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
