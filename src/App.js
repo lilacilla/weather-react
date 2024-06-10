@@ -7,12 +7,14 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
-      <div className="weather-app">
-        <Search />
+      <div className="container">
+        <div className="weather-app">
+          <Search />
 
-        <Main />
+          <Main />
 
-        <Footer />
+          <Footer />
+        </div>
       </div>
     </div>
   );
