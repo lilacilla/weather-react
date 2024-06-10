@@ -1,7 +1,8 @@
 import "./App.css";
 import "./styles.css";
+import "./Weather.css";
 import Search from "./Search";
-import Main from "./Main";
+import Weather from "./Weather";
 import Footer from "./Footer";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <div className="weather-app">
           <Search />
 
-          <Main />
+          <Weather defaultCity="London" />
 
           <Footer />
         </div>

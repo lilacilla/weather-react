@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles.css";
 
 export default function Search() {
   return (
@@ -11,7 +12,9 @@ export default function Search() {
             required
             id="search-form-input"
             className="search-form-input"
+            autoFocus="on"
           />
+
           <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
