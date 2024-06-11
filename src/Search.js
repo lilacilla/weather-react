@@ -5,7 +5,7 @@ export default function Search() {
   return (
     <div className="Search">
       <header>
-        <form className="search-form" id="search-form">
+        <form className="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
