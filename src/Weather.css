@@ -7,6 +7,8 @@
   margin: 0;
   font-size: 30px;
   line-height: 48px;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .weather-app-details {
@@ -14,6 +16,7 @@
   color: rgba(39, 33, 66, 0.4);
   line-height: 24px;
   font-weight: 500;
+  text-align: left;
 }
 
 .weather-app-details strong {
@@ -29,9 +32,7 @@
 }
 
 .weather-app-icon {
-  width: 88px;
-  height: 88px;
-  margin-left: 22px;
+  margin-top: 7px;
 }
 
 .weather-app-temperature {
@@ -64,8 +65,4 @@
 }
 .weather-forecast-temperature-min {
   opacity: 0.5;
-}
-
-.weather-forecast-icon {
-  width: 88px;
 }
