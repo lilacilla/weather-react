@@ -57,6 +57,7 @@
   text-align: center;
   display: flex;
   justify-content: space-between;
+  color: #6b6b6bcc;
 }
 
 .weather-forecast-date {
@@ -68,6 +69,37 @@
 .weather-forecast-temperature {
   font-size: 13px;
 }
-.weather-forecast-temperature-min {
+.forecast-temperature-min {
   opacity: 0.5;
+}
+
+@media screen and (max-width: 657px) {
+  .weather-app {
+    padding: 22px;
+  }
+
+  .weather-app-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .weather-app-city {
+    text-align: center;
+  }
+
+  .weather-app-details {
+    text-align: center;
+  }
+
+  .weather-app-temperature {
+    font-size: 70px;
+  }
+
+  .weather-app-unit {
+    font-size: 20px;
+  }
+  .forecast-temperature {
+    font-size: 14px;
+  }
 }

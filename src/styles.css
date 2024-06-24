@@ -56,3 +56,15 @@ footer {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
 }
+
+@media screen and (max-width: 657px) {
+  .search-form-input {
+    width: 60%;
+    padding: 10px 15px;
+  }
+
+  .search-form-button {
+    padding: 10px 25px;
+    margin-left: 10px;
+  }
+}
