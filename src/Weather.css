@@ -99,6 +99,11 @@
   .weather-app-unit {
     font-size: 20px;
   }
+
+  .weather-forecast {
+    margin-bottom: 30px;
+  }
+
   .forecast-temperature {
     font-size: 14px;
   }
